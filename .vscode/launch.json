@@ -1,0 +1,27 @@
+{
+  // Use IntelliSense to find out which attributes exist for C# debugging
+  // Use hover for the description of the existing attributes
+  // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Skia.WPF (Debug)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-skia-wpf-host",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/unoImageError.Skia.WPF.Host/bin/Debug/net6.0-windows/unoImageError.Skia.WPF.Host.dll",
+      "args": [],
+      "env": {
+        "DOTNET_MODIFIABLE_ASSEMBLIES": "debug"
+      },
+      "cwd": "${workspaceFolder}/unoImageError.Skia.WPF.Host",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
+}

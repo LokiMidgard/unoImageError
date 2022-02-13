@@ -1,0 +1,3 @@
+namespace unoImageError.Skia.Gtk
+{
+}
